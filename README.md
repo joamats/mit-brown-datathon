@@ -28,7 +28,7 @@ We exaggerate these data issues to get a sense of their impact on machine learni
 
 ## Materials (online)
 
-* [WiDS dataset](https://physionet.org/content/widsdatathon2020/1.0.0/) - please download the data from here, and run [Notebook 0](https://github.com/joamats/mit-brown-datathon/blob/master/0_datasets.ipynb) to create the train and test subsets with the modified features - **before the datathon!!**
+* [WiDS dataset](https://physionet.org/content/widsdatathon2020/1.0.0/) - please download the data ("training_v2.csv") from here, and run [Notebook 0](https://github.com/joamats/mit-brown-datathon/blob/master/0_datasets.ipynb) to create the train and test subsets with the modified features - **before the datathon!!**
 
 * [Data Dictionary](https://physionet.org/content/widsdatathon2020/1.0.0/data/WiDS_Datathon_2020_Dictionary.csv) - to understand what the variables mean
 
