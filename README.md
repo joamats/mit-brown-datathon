@@ -4,11 +4,11 @@
 
 The objective is to investigate the impact of the data issues that exist in electronic health records on downstream clinical prediction tasks. We shall investigate the effect of a faulty pulse oximeter reading, the effect of a missing serum lactate level, and the effect of the combination of the two on mortality prediction in the hospital. We will be creating 3 "altered" datasets in addition to the original WiDS dataset:
 
-1. A dataset where the SpO2 of the Black patients will be increased by 3%
+1. A dataset where the SpO2 of the Black patients will be increased by 10%
 
 2. A dataset where we drop the serum lactate measurements of Black patients
 
-3. A dataset where the SpO2 of the Black patients will be increased by 3% and their serum lactate is dropped
+3. A dataset where the SpO2 of the Black patients will be increased by 10% and their serum lactate is dropped
 
 
 We exaggerate these data issues to get a sense of their impact on machine learning which surprisingly has not been sufficiently explored by the machine learning community.
@@ -28,7 +28,7 @@ We exaggerate these data issues to get a sense of their impact on machine learni
 
 ## Materials (online)
 
-* [WiDS dataset](https://physionet.org/content/widsdatathon2020/1.0.0/) - please download the data ("training_v2.csv") from here, and run [Notebook 0](https://github.com/joamats/mit-brown-datathon/blob/master/0_datasets.ipynb) to create the train and test subsets with the modified features - **before the datathon!!**
+* [WiDS dataset](https://physionet.org/content/widsdatathon2020/1.0.0/) - please download the data ("training_v2.csv") from here, place it under the "data" folder, and run [Notebook 0](https://github.com/joamats/mit-brown-datathon/blob/master/0_datasets.ipynb) to create the train and test subsets with the modified features - **before the datathon!!**
 
 * [Data Dictionary](https://physionet.org/content/widsdatathon2020/1.0.0/data/WiDS_Datathon_2020_Dictionary.csv) - to understand what the variables mean
 
